@@ -1,0 +1,20 @@
+LOG_LEVEL: "debug"
+APP_PORT: 3000
+
+cache_redis_uri: "localhost:6379"
+cache_redis_max_conn: 5
+cache_redis_idle_conn: 5
+
+kafka_fallback_redis_uri: "localhost:6379"
+kafka_fallback_redis_password: ""
+kafka_fallback_redis_max_conn: 5
+kafka_fallback_redis_idle_conn: 5
+
+kafka_bootstrap_servers	: "localhost:9092"
+
+kafka_fallback_key: "default_topic"
+kafka_fallback_expiry: 180
+
+sentry_enabled: false
+sentry_dsn: "dummy"
+
